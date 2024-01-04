@@ -5,7 +5,6 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Data
 @Document()
 public class Rol {
-
     @Id
     private String id;
     private String nombre;
@@ -26,4 +25,6 @@ public class Rol {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+
+
 }
